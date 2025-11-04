@@ -1,8 +1,8 @@
 # Probability Distributions
-* Continuous Probability Distributions - Probability Density Functions
- * **Normal Distirbution** - Most relevant to business decissions
+## Continuous Probability Distributions - Probability Density Functions
+### **Normal Distirbution** - Most relevant to business decissions
  * *If a population approximate a standard normal distribution, then we can make some powerful inferences about it once we know its Mean and Standard Deviation - Using a Z-table*
- *  * Bell Curve or Gaussian Dristibution
+    * Bell Curve or Gaussian Dristibution
     * All Normal curves:
      * Is symmetrical about the mean
      * 99.73% of values fall under 3 Standard Deviaitons
@@ -16,10 +16,40 @@
       * 68.27% of all values fall under +or- 1 Standard Deviatoin
       * 96.45% of all the values fall under +or- 2 Standard Deviations
       * 99.73% of all the values fall under +or- 3 Standard Deviations
- * Exponential Distribution
- * Beta Distribution
 
-Discrete Probability Distributions - Probability Mass Functions (Binomial Distribution)
+## Less popular distributions
+### Exponential Distribution
+### Beta Distribution
+
+## Discrete Probability Distributions - Probability Mass Functions (Binomial Distribution)
+
+# Statistics
+* Population - every member of a group we want to study
+* Sample - small set of random members of the population
+*    * >30 random sample will almost always reflect the populaiton
+     * Bias in sampling
+         * **Selection Bias** - favours members of a population that are more inclined or able to answer polls (more willing to respond the the sampling technique)
+            * Undercoverage Bias - making too few observations or omitting entire segments of a population
+            * Self-selection Bias - people who volunteer may differ significantly from those in the population who don't
+            * Healthy-user Bias - sample may come from a helthier segment of the population
+         * **Survivorship Bias** - If a population moves over time, it may be due to lessor members leaving the population due to death, expulsion, erlocation etc.
+* Parameter - charisteristic of a population
+* Statistic - is a characteristic of a sample
+* Apply **Statistical Inference** to the **Sample** in an attempt to describe the population
+* Variable - a charisteristic that describes a member of the sample
+     * Discrete - gender, birthplace
+     * Continuous - age, salary
+## Types of Sampling
+* Random - every member of a population has an equal chance of being selected
+   * Since samples are smaller than populations, there is a chance that entire demographics might be missed
+* Stratified Random - ensures that groups within a population are adiquately represented
+*    * Divide the pupulation into segments based on some charisteristics
+     * Take random samples from each group
+     * Size of each sample is based on the size of th group realtive to the population
+* Cluster - break the population down into groups and sample a random selecton of groups, or *clusters*
+
+## Central Limit Theorem
+* 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed
 
 # Machine Learning/Deep Learning Model Notes  
 
