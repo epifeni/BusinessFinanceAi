@@ -1,3 +1,5 @@
+# Data Science Documentation for Regression and Time-Series Analysis
+
 # Probability Distributions
 ## Continuous Probability Distributions - Probability Density Functions
 ### **Normal Distirbution** - Most relevant to business decissions
@@ -71,7 +73,62 @@ We can say that with a 95% **confidence level** that the **populaiton parameter*
 * We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P
 <img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />
 
-# Hypothesis Testing
+# Hypothesis Testing  
+**We never "PROVE" a hypothesis. We only can **reject** OR **fail to reject** the null hypothesis  
+The application of statistical methods to real-world questions  
+* We start with a null hypothesis (the **an ssumption**). Then we run an expriment to test his null hypothesis
+* Based on the results of the experiment, we either **reject** or **fail to reject** the null hypothesis
+* If the null hypothesis is rejected, then we say that the data supports another, mutually exclusive **alternative hypothesis**
+
+## Framing the Hypothesis
+* At the start of the experiment, the null hypothesis is assumed to be true. It is upto the experiment to to **reject** or **fail to reject** the null hypothesis
+* If the data fails to support the null hypothesis, only then can we look at an alternative hypothesis
+* **null hypothesis should contain some kind of equality (=, <=, >=)**
+* **alternative hypothesis should **not* have an equality (not = to, <, >)**
+
+## Testing the Hypothesis
+* Assuming out null hypothesis is valid, if the probability of observing these results of the null hypothiesis (after recording the results) is very small (inside of 0.05 - **The Level of Significance [alpha]**), then we reject the null hypothesis
+  * i.e. Given an assumption, the probability of a particular observed event is exceptionally small, then you can conclude that the assumption is probaby not correct
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **less than* the null hypothesis, then the **left-tail** of the probability curve has an area of 0.05
+<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" />
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **more than* the null hypothesis, then the **right-tail** of the probability curve has an area of 0.05
+<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" />
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **not equal to* the null hypothesis, then the two tales of the probability curve **share** an area of 0.05 (H1 not= null)
+<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" />
+* These areas establish the **critical values** or Z-scores
+<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" />
+
+## 2 Types of Tests - Test of Means and Test of Propotions
+* Each has it's own test statistic to calculate
+* **Tests of Mean** - Looking to find an **average**, or specific value in a population
+* **Test of Propotion** - Looking at a percentage of the population does 'X'. Trying to extablish an hypothesis when dealing with a propotion of the population
+
+### Calculating Test Statistics
+* When working with mean
+<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" />
+* When working with populations
+<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />
+
+## 2 Ways of Performing Hypothesis Tests  
+**Traditional Test**
+1. Take the level of significance (alpha)  
+2. Use it to determine the critical value  
+3. Compare the test statistic to the critical value
+
+**P-value Test**
+1. Take the test statistic (Z-value)
+2. Use it to determine the P-value
+3. Compare the P-value to the level of significance (alpha)
+
+**"If the P-value is low, the null must go!"* --> Reject null hypothesis
+**"If the P-value is high, the null must fly!"* --> Fail to reject null hypothesis  
+
+
+
+
+
+
+
 
 
 # Machine Learning/Deep Learning Model Notes  
