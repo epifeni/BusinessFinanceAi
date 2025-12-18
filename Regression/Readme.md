@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Linear Regression
-
-Referece: [An Introduction to Statistical Learning Chapters 1 and 2](https://www.stat.berkeley.edu/~rabbee/s154/ISLR_First_Printing.pdf)  
-=======
 # Regression
 
 Referece: [An Introduction to Statistical Learning](https://www.stat.berkeley.edu/~rabbee/s154/ISLR_First_Printing.pdf)<br>  
@@ -17,13 +12,6 @@ Referece: [An Introduction to Statistical Learning](https://www.stat.berkeley.ed
 
 ## Finding the right trade-off of model complexity
 <img width="590" height="406" alt="image" src="https://github.com/user-attachments/assets/e633ba86-531e-4c0c-a348-dd29e4ba5185" /><br>
-
-
-
-
-
-
->>>>>>> 0f78a64d20740d4e22ca8c7bbf32a62f82dd1c0f
 
 
 

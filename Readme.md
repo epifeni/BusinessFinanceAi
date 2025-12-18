@@ -119,17 +119,10 @@ The application of statistical methods to real-world questions
 1. State the null hypothesis
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
-<<<<<<< HEAD
-4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
-<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
-5. Calculate the test statistic (using the Z formula)\
-<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
-=======
 4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
 <img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
 5. Calculate the test statistic (using the Z formula)<br>
 <img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
->>>>>>> 0f78a64d20740d4e22ca8c7bbf32a62f82dd1c0f
 6. Calculate Critical Value
    * Do a z-table lookup of the alpha value to get the z value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
@@ -143,17 +136,10 @@ The application of statistical methods to real-world questions
 1. State the null hypothesis
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
-<<<<<<< HEAD
-4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
-<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
-5. Calculate the test statistic (using the Z formula)\
-<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
-=======
 4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
 <img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
 5. Calculate the test statistic (using the Z formula)<br>
 <img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
->>>>>>> 0f78a64d20740d4e22ca8c7bbf32a62f82dd1c0f
 6. P-Value
    * z-table lookup to get the p value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
